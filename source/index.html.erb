@@ -1,6 +1,43 @@
----
-title: HTML5 Boilerplate Middleman
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hack To Help</title>
 
-<!-- Add your site or application content here -->
-<p>Hello world! This is HTML5 Boilerplate.</p>
+
+
+  <script type="text/javascript" src="https://static1.mailerlite.com/js/w/webforms.js?v4"></script>
+</head>
+<body>
+  <div id="header-background">
+    <header>
+      <hgroup class="cf">
+        <h1>&#60;Hack To Help /&#62;</h1>
+      </hgroup>
+    </header>
+  </div>
+
+  <div id="center">
+    <h2>
+      <q> In a gentle way, you can shake the world. </q>
+    </h2>
+    <p><cite> - Mahatma Ghandi</cite></p>
+  </div>
+
+  <div id="bottom">
+    <div id="bottom-content">
+      <div id="introduction">
+        <h3>Want a job where you can do some real good?</h3>
+        <p>We'd like to show one. We'll be listing the tech companies that we believe are doing the most good, so you can find the place where your work will have the biggest positive impact. </p>
+      </div>
+
+      <h4> Leave us your email and we'll let you know when it's ready. </h4>
+
+      <%= partial "mailing_form" %>
+
+    </div>
+      <%= partial "footer" %>
+  </div>
+
+</body>
+</html>
